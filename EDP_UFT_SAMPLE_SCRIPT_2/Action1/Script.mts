@@ -1,4 +1,4 @@
-﻿InvokeApplication("C:\Users\Public\Jenkins\DotNet_SampleApp\MahApps.Metro.Demo.exe")
+﻿InvokeApplication("C:\Users\Public\Jenkins\Application\DotNet_SampleApp\MahApps.Metro.Demo.exe")
 
 If WpfWindow("wndDemoApplication").Exist(40) Then 
 	Reporter.ReportEvent micPass,"Launching the .Net Application",".Net application launched successfully"
